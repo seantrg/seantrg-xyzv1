@@ -29,23 +29,11 @@ const SeanTRGPage: React.FC = () => {
           gap: '1.5rem',
           flexWrap: 'wrap',
         }}>
-          <a href="https://youtube.com/@seantrg" target="_blank" rel="noopener noreferrer" style={{ transition: 'transform 0.2s' }} </a>
-          <a href="https://x.com/SeanTRG" target="_blank" rel="noopener noreferrer" style={{ transition: 'transform 0.2s' }} </a>
-          <a href="https://twitch.tv/seantrglive" target="_blank" rel="noopener noreferrer" style={{ transition: 'transform 0.2s' }}
-             onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.15)'}
-             onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}>
-            <img src="v2.seantrg.xyz/assets/tw.png" alt="Twitch" style={{ width: 48, height: 48 }} />
-          </a>
-          <a href="https://steamcommunity.com/id/seantrg" target="_blank" rel="noopener noreferrer" style={{ transition: 'transform 0.2s' }}
-             onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.15)'}
-             onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}>
-            <img src="v2.seantrg.xyz/assets/ste.png" alt="Steam" style={{ width: 48, height: 48 }} />
-          </a>
-          <a href="/projects" style={{ transition: 'transform 0.2s' }}
-             onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.15)'}
-             onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}>
-            <img src="v2.seantrg.xyz/assets/proj.png" alt="Projects" style={{ width: 48, height: 48, filter: 'hue-rotate(90deg) saturate(0.7)' }} />
-          </a>
+          <a href="https://youtube.com/@seantrg" target="_blank" rel="noopener noreferrer">YouTube</a>
+          <a href="https://x.com/seantrg" target="_blank" rel="noopener noreferrer">X</a>
+          <a href="https://twitch.tv/seantrglive" target="_blank" rel="noopener noreferrer">Twitch</a>
+          <a href="https://steamcommunity.com/id/seantrg" target="_blank" rel="noopener noreferrer">Steam</a>
+          <a href="/projects" target="_blank" rel="noopener noreferrer">Projects</a>
         </div>
 
   
